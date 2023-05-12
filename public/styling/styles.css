@@ -216,4 +216,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184067', end
 
 .facility-body {
     display: flex;
+    flex-direction: column;
+}
+
+.facility-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.facility-top-left {
+    margin: auto;
+}
+
+.facility-top-right {
+    margin: auto;
+}
+
+.facility-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.facility-bottom-left {
+    margin: auto;
+}
+
+.facility-bottom-center {
+    margin: auto;
+}
+
+.facility-bottom-right {
+    margin: auto;
 }
