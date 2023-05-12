@@ -205,3 +205,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184067', end
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.about-p {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+}
+
+.facility-body {
+    display: flex;
+}
