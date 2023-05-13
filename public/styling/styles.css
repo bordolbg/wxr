@@ -217,24 +217,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184067', end
 .facility-body {
     display: flex;
     flex-direction: column;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    height: 90%;
+    width: 100%;
 }
 
 .facility-top {
     display: flex;
     flex-direction: row;
+    height: 50%;
+    width: 100%;
 }
 
 .facility-top-left {
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .facility-top-right {
     margin: auto;
+    width: 50%;
 }
 
 .facility-bottom {
     display: flex;
     flex-direction: row;
+    height: 50%;
 }
 
 .facility-bottom-left {
@@ -247,4 +259,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184067', end
 
 .facility-bottom-right {
     margin: auto;
+}
+
+.quick-ref-apt {
+    margin: auto;
+    background-color: #4d4d4d;
+    height: 20vh;
+    width: 12vh;
+    outline: 5px solid #4d4d4d;
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: center;
+}
+
+.vertical-align{
+    vertical-align: middle;
+    height: 25%;
+}
+
+.iata-name {
+    margin: 0;
+    height: 25%;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.iata-rules {
+    margin: 0;
+    height: 25%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: black;
+}
+
+.iata-wind {
+    margin: 0;
+    height: 25%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.iata-altimeter {
+    margin: 0;
+    height: 25%;
+    vertical-align: middle;
+    text-align: center;
 }
